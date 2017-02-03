@@ -5,4 +5,31 @@ ej.: "El resto es 0 ."*/
 function SacarResto()
 {
 	
+
+	var sueldo;
+	var descuento;
+	var resultado;
+	sueldo=document.getElementById('numeroDividendo').value;
+	descuento=document.getElementById('numeroDivisor').value;
+	sueldo=parseInt(sueldo);  
+	descuento=parseInt(descuento);
+	resultado=(sueldo%descuento);
+	alert(resultado);
+
+
+
+
+	var resultado;
+	resultado=2%10;
+	alert(resultado);
+	resultado=10%2;
+	alert(resultado);
+
+
+
+
+
+
+
+
 }

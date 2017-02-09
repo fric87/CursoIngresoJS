@@ -11,7 +11,7 @@ function Sumar ()
 var precioUno;
 var precioDos;
 var precioTres;
-var resultado;
+var resultdo;
 precioUno=document.getElementById('PrecioUno').value;
 precioDos=document.getElementById('PrecioDos').value;
 precioTres=document.getElementById('PrecioTres').value;
@@ -23,30 +23,28 @@ alert(resultado);
 
 
 
-//ctrl+d seleccionar varias palabras iguales. doble click sobre una palabra la selecciona y compara...
-
-
-
 
 }
 function Promedio () 
 {
+	var precioUno;
+	var precioDos;
+	var precioTres;
+	var resultado;
+	precioUno=document.getElementById('PrecioUno').value;
+	precioDos=document.getElementById('PrecioDos').value;
+	precioTres=document.getElementById('PrecioTres').value;
+	precioUno=parseInt(precioUno);
+	precioDos=parseInt(precioDos);
+	precioTres=parseInt(precioTres);
+	resultado=((precioUno+precioDos+precioTres)/(3));
+	alert(resultado);
+	
+
+  
 
 
 
-
-var precioUno;
-var precioDos;
-var precioTres;
-var resultado;
-precioUno=document.getElementById('PrecioUno').value;
-precioDos=document.getElementById('PrecioDos').value;
-precioTres=document.getElementById('PrecioTres').value;
-precioUno=parseInt(precioUno);
-precioDos=parseInt(precioDos);
-precioTres=parseInt(precioTres);
-resultado=((precioUno+precioDos+precioTres)/(3));
-alert(resultado);
 
 
 
@@ -54,4 +52,27 @@ alert(resultado);
 function PrecioFinal () 
 {
 	
+
+	var precioUno;
+	var precioDos;
+	var precioTres;
+	var precioPorcentaje;
+	var resultado;
+	precioUno=document.getElementById('PrecioUno').value;
+	precioDos=document.getElementById('PrecioDos').value;
+	precioTres=document.getElementById('PrecioTres').value;
+	precioUno=parseInt(precioUno);
+	precioDos=parseInt(precioDos);
+	precioTres=parseInt(precioTres);
+	precioPorcentaje=((precioUno+precioDos+precioTres)*(0.21));
+	resultado=((precioUno+precioDos+precioTres)+(precioPorcentaje));
+	alert(resultado);
+
+
+
+
+
+
+
+
 }

@@ -11,4 +11,45 @@ E.	Si el importe final con descuento suma más de $120  se debe sumar un 10% de 
 function CalcularPrecio () 
 {
  	
+
+var Cantidad;
+var precioBruto;
+var precioFinal;
+
+
+Cantidad=document.getElementById('Cantidad').value;
+precioBruto=(Cantidad*35)
+
+		if(Cantidad>5)
+		{
+
+			precioFinal=(precioBruto*0.5)
+		}
+
+
+				if(Cantidad==4)
+
+				{
+
+						if(Marca==ArgentinaLuz)	
+						
+						precioFinal=(precioBruto*0.4)
+
+						else
+						precioFinal=(precioBruto*0.3)
+
+
+
+				}	
+
+
+
+
+
+
+
+
+
+
+document.getElementById("precioDescuento").value=precioFinal;
 }

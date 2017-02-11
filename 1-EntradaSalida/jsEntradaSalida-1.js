@@ -2,5 +2,16 @@
 function Mostar()
 {
 	
+	var boton;
+	boton=document.getElementById('FormIngreso');
+	alert("todo funciona de maravilla papá!!!");
+
+
+
+
+
+
+
+
 }
 

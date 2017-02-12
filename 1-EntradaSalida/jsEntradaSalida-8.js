@@ -19,12 +19,6 @@ function SacarResto()
 
 
 
-	var resultado;
-	resultado=2%10;
-	alert(resultado);
-	resultado=10%2;
-	alert(resultado);
-
 
 
 

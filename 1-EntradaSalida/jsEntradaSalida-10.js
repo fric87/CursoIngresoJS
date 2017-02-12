@@ -5,4 +5,14 @@ en el cuadro de texto "RESULTADO"*/
 function MostrarAumento()
 {
 	
+	var importe;
+	var descuento;
+	importe=document.getElementById('importe').value,
+	importe=parseInt(importe);
+	descuento=(importe*0.25);
+	document.getElementById('resultado').value=("Con el descuento de 25% le quedarian "+(importe-descuento)+" pesos...");
+
+
+
+
 }

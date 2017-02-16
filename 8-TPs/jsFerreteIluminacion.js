@@ -31,12 +31,16 @@ precioBruto=(Cantidad*35)
 
 				{
 
-						if(Marca==ArgentinaLuz)	
+						if(Marca=="ArgentinaLuz")	
 						
-						precioFinal=(precioBruto*0.4)
+							{
+							precioFinal=(precioBruto*0.4);
+							}
 
 						else
-						precioFinal=(precioBruto*0.3)
+							{
+							precioFinal=(precioBruto*0.3);
+							}
 
 
 
